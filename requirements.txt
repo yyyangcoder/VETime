@@ -1,0 +1,30 @@
+# Core dependencies
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# Transformers and vision
+transformers>=4.30.0
+timm>=0.9.0
+einops>=0.6.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+statsmodels>=0.14.0
+
+# TSB-AD benchmark
+tsb-ad>=1.0.0
+
+# Utilities
+tqdm>=4.65.0
+accelerate>=0.20.0
+tensorboard>=2.13.0
+peft>=0.4.0
+jaxtyping>=0.2.0
+
+# Optional: for visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
