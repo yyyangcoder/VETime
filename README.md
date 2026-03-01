@@ -92,7 +92,7 @@ cd dataset/TSB-AD && pip install -e .
 Download the pre-trained model checkpoints from Hugging Face:
 
 ```bash
-huggingface-cli download VETime_checkpoints.pth --local-dir ./checkpoints
+huggingface-cli download yyyang0/VETime-checkpoints --local-dir ./checkpoints
 ```
 
 ### Download TSB-AD Datasets
