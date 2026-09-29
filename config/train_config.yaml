@@ -1,0 +1,32 @@
+
+training:
+  batch_size: 32
+  num_epochs: 25
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  optimizer: "Adam"
+  seed: 64
+  num_workers: 5
+  early_stopping_patience: 4
+
+hardware:
+  mixed_precision: "bf16"
+  gradient_accumulation_steps: 4
+  log_with: "tensorboard"
+  cuda_device: "0"
+
+loss_weights:
+  contrastive_loss: 0.1
+  load_balance_loss: 0.2
+  reconstruction_loss: 1.0
+  anomaly_detection_loss: 1.0
+
+model_and_data:
+  model_name: "VETime"
+  dataset_path: "./dataset"
+  dataset_test_dir: "./dataset/TSB-AD/Datasets/TSB-AD-U"
+  file_list: "./dataset/TSB-AD/Datasets/File_List/TSB-AD-U.csv"
+  vision_name: "mae_visualize_base.pth"
+  vision_path: "./checkpoints/weight_v"
+  img_size: 224
+  T_sqrt: false
