@@ -144,7 +144,7 @@ If you find VETime useful, please cite our work:
 ## References
 
 - [TSB-AD](https://github.com/TheDatumOrg/TSB-AD): *The Elephant in the Room: Towards A Reliable Time-Series Anomaly Detection Benchmark* (NeurIPS 2024).
-- [Time-RCD](https://github.com/thu-sail-lab/Time-RCD): *Towards Foundation Models for Zero-Shot Time Series Anomaly Detection: Leveraging Synthetic Data and Relative Context Discrepancy* (IMCL 2026).
+- [Time-RCD](https://github.com/thu-sail-lab/Time-RCD): *Towards Foundation Models for Zero-Shot Time Series Anomaly Detection: Leveraging Synthetic Data and Relative Context Discrepancy* (ICML 2026).
 
 ## License
 
