@@ -135,7 +135,7 @@ If you find VETime useful, please cite our work:
 ```bibtex
 @article{yang2026vetime,
   title={VETime: Vision Enhanced Zero-Shot Time Series Anomaly Detection},
-  author={Yingyuan Yang and Tian Lan and Yifei Gao and Yimeng Lu and Liming An and Wenjun He and Meng Wang and Chenghao Liu and Chen Zhang},
+  author={Yingyuan Yang and Tian Lan and Yifei Gao and Yimeng Lu and Xuming An and Wenjun He and Meng Wang and Chenghao Liu and Chen Zhang},
   journal={arXiv preprint arXiv:2602.16681},
   year={2026}
 }
